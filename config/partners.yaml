@@ -1,0 +1,33 @@
+partner_a:
+  default:
+    extension: ".csv"
+    separator: ";"
+    encoding: "utf-8"
+
+    columns:
+      - email
+      - civilite
+      - code_postal
+      - ville
+
+    types:
+      email: email
+      civilite: string
+      code_postal: string
+      ville: string
+
+partner_b:
+  fichier_b2c:
+    extension: ".csv"
+    separator: ","
+    encoding: "utf-8"
+
+    columns:
+      - email
+      - telephone
+      - code_postal
+
+    types:
+      email: email_or_sha256
+      telephone: string
+      code_postal: string
