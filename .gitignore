@@ -1,0 +1,28 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+
+# packaging
+*.egg-info/
+dist/
+build/
+
+# tests
+.pytest_cache/
+
+# logs & runs
+logs/
+*.log
+*.jsonl
+
+# local data (ne pas versionner les livrables)
+data/
+*.csv
+*.txt
+*.gz
+*.zip
+*.docx
+
+# env
+.env
